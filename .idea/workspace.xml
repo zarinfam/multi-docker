@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb13a19-a677-4473-bd70-a2cc347b9253" name="Default Changelist" comment="" />
+    <list default="true" id="7bb13a19-a677-4473-bd70-a2cc347b9253" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +12,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="FKvMsgoe" />
   </component>
@@ -17,6 +22,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YNcybdOXOs605l4vWxFUuJJ2II" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -32,6 +40,7 @@
       <recent name="C:\Users\zarin\projects\test\udemy\docker-k8s\fib\client\nginx" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zarin\projects\test\udemy\docker-k8s\fib" />
       <recent name="C:\Users\zarin\projects\test\udemy\docker-k8s\fib\client" />
       <recent name="C:\Users\zarin\projects\test\udemy\docker-k8s\fib\nginx" />
       <recent name="C:\Users\zarin\projects\test\udemy\docker-k8s\fib\server" />

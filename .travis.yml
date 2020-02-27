@@ -1,0 +1,23 @@
+sudo: required
+services:
+ - docker
+
+language: generic
+
+before_install:
+ - docker build -t zarinfam/multi-docker-test -f ./client/Dockerfile.dev ./client
+
+script:
+ - docker run -e CI=true zarinfam/multi-docker-test npm test
+
+after_success:
+ - docker build -t zarinfam/multi-docker-client ./client
+ - docker build -t zarinfam/multi-docker-nginx ./nginx
+ - docker build -t zarinfam/multi-docker-server ./server
+ - docker build -t zarinfam/multi-docker-worker ./worker
+ - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+ - docker push zarinfam/multi-docker-client
+ - docker push zarinfam/multi-docker-nginx
+ - docker push zarinfam/multi-docker-server
+ - docker push zarinfam/multi-docker-worker
+
