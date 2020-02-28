@@ -21,3 +21,15 @@ after_success:
  - docker push zarinfam/multi-docker-server
  - docker push zarinfam/multi-docker-worker
 
+deploy:
+ edge: true
+ provider: elasticbeanstalk
+ region: "us-east-2"
+ app: "multi-docker"
+ env: "MultiDocker-env"
+ bucket_name: "elasticbeanstalk-us-east-2-886221772239"
+ bucket_path: "multi-docker"
+ on:
+  branch: master
+ access_key_id: $AWS_ACCESS_KEY
+ secret_access_key: $AWS_SECRET_KEY
